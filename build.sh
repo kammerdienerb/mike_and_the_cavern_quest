@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-gcc game.c -o mike
+gcc -g game.c -lncursesw -o mike
